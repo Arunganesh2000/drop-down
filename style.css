@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    list-style-type: none;
+}
+a{
+    display: block;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+
+}
+a:hover{
+    background-color: aquamarine;
+}
+.city{
+    list-style-type: none;
+    display: none;
+}
+.dropdown  li:hover .city{
+    display: block;
+}
+.chennai{
+    list-style-type: none;
+    display: none;
+}
+.city li:hover .chennai{
+    display: block;
+}
